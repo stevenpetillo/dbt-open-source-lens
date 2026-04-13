@@ -1,0 +1,12 @@
+packages:
+  - name: codegen
+    package: dbt-labs/codegen
+    version: 0.14.0
+  - name: dbt_utils
+    package: dbt-labs/dbt_utils
+    version: 1.3.3
+  - git: https://github.com/stevenpetillo/dbt-custom-utils.git
+    name: dbt_custom_utils
+    revision: c193beb08c07145860729101056e998fbe4d9ba9
+    subdirectory: transform/dbt_custom_utils
+sha1_hash: 1d17bed32ad8fa801ecdf613a750a55ba8ec04f5

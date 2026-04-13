@@ -1,0 +1,7 @@
+version: 2
+
+# Mart models: add `- name: your_model` entries under `models:` as you build this layer.
+groups:
+  - name: marts
+    owner:
+      name: dbt_open_source_lens

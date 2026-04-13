@@ -1,0 +1,109 @@
+version: 2
+
+sources:
+  - name: github
+    description: ""
+    database: postgres
+    tables:
+      - name: issues
+        description: ""
+        columns:
+          - name: url
+            data_type: text
+            description: ""
+          - name: repository_url
+            data_type: text
+            description: ""
+          - name: labels_url
+            data_type: text
+            description: ""
+          - name: comments_url
+            data_type: text
+            description: ""
+          - name: events_url
+            data_type: text
+            description: ""
+          - name: html_url
+            data_type: text
+            description: ""
+          - name: id
+            data_type: text
+            description: ""
+          - name: node_id
+            data_type: text
+            description: ""
+          - name: number
+            data_type: text
+            description: ""
+          - name: title
+            data_type: text
+            description: ""
+          - name: user
+            data_type: text
+            description: ""
+          - name: labels
+            data_type: text
+            description: ""
+          - name: state
+            data_type: text
+            description: ""
+          - name: locked
+            data_type: text
+            description: ""
+          - name: assignees
+            data_type: text
+            description: ""
+          - name: milestone
+            data_type: text
+            description: ""
+          - name: comments
+            data_type: text
+            description: ""
+          - name: created_at
+            data_type: text
+            description: ""
+          - name: updated_at
+            data_type: text
+            description: ""
+          - name: closed_at
+            data_type: text
+            description: ""
+          - name: assignee
+            data_type: text
+            description: ""
+          - name: author_association
+            data_type: text
+            description: ""
+          - name: type
+            data_type: text
+            description: ""
+          - name: active_lock_reason
+            data_type: text
+            description: ""
+          - name: draft
+            data_type: text
+            description: ""
+          - name: pull_request
+            data_type: text
+            description: ""
+          - name: body
+            data_type: text
+            description: ""
+          - name: closed_by
+            data_type: text
+            description: ""
+          - name: reactions
+            data_type: text
+            description: ""
+          - name: timeline_url
+            data_type: text
+            description: ""
+          - name: performed_via_github_app
+            data_type: text
+            description: ""
+          - name: state_reason
+            data_type: text
+            description: ""
+          - name: ingested_at
+            data_type: timestamp without time zone
+            description: ""
