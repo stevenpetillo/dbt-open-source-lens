@@ -29,6 +29,9 @@ sources:
           - name: id
             data_type: text
             description: ""
+            tests:
+              - not_null
+              - unique
           - name: node_id
             data_type: text
             description: ""

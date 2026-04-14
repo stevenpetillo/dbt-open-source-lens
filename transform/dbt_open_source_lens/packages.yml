@@ -1,8 +1,10 @@
 packages:
   - package: dbt-labs/codegen
     version: 0.14.0
+
   - package: dbt-labs/dbt_utils
     version: 1.3.3
+
   - git: https://github.com/stevenpetillo/dbt-custom-utils.git
     revision: v1.2.0
     subdirectory: transform/dbt_custom_utils
